@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*main{
+    background-image: url("tota.png");
+    height: 790px;
+    
+}*/
+
+header{
+    background-color:   rgb(8, 101, 155);
+    color: rgb(246, 245, 247);
+    padding: 10px 0;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+display: inline;
+margin: 0 20px;
+}
+header nav ul li a{
+    color:rgb(239, 241, 243) ;
+    text-decoration: none ;
+    font-size: 18px;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.columna{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid  #75dbfa;
+    background-color: #75dbfa;
+
+}
+.columna h2{
+    text-align: center;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.columna p{
+    text-align: justify;
+    color: #555;
+}
+footer{
+    background-color:   rgb(8, 101, 155);
+    color:white ;
+    text-align: center;
+    padding: 20px ;
+    margin-top: 0px;
+    
+}
+footer p{
+    font-size: 14px;
+}
+iframe{
+    width : 100% ;height: 600px;
+}
+main section a{
+   color:rgb(239, 241, 243) ;
+    text-decoration: none ;
+    font-size: 40px;
+}
+main h1{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+main ul li{
+    text-align:left;
+    color: black;
+    font-size: 20px;
+}
+main section a:hover{
+    text-decoration: underline;
+}
